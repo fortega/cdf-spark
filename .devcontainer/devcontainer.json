@@ -1,0 +1,16 @@
+{
+    "name": "cdf-spark",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "forwardPorts": [4040],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "ms-python.autopep8"
+            ]
+        }
+    }
+}
