@@ -3,7 +3,16 @@
     "build": {
         "dockerfile": "Dockerfile"
     },
-    "forwardPorts": [4040],
+    "forwardPorts": [
+        4040
+    ],
+    "containerEnv": {
+        "TENANT_ID": "48d5043c-cf70-4c49-881c-c638f5796997",
+        "COGNITE_PROJECT": "publicdata",
+        "CDF_CLUSTER": "api",
+        "CLIENT_ID": "1b90ede3-271e-401b-81a0-a4d52bea3273",
+        "CLIENT_SECRET": ""
+    },
     "customizations": {
         "vscode": {
             "extensions": [
